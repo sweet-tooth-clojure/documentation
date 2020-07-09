@@ -6,10 +6,10 @@ content:
   sources:
   - url: /Users/daniel/projects/web/sweet-tooth/documentation
     start_path: docs/overview
-    branches: [master]
+    branches: [dev]
   - url: /Users/daniel/projects/web/sweet-tooth/documentation
     start_path: docs/quickstart
-    branches: [master]
+    branches: [dev]
   - url: /Users/daniel/projects/web/sweet-tooth/endpoint
     start_path: docs
     branches: [master]
