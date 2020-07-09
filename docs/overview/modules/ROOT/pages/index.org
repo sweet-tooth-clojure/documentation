@@ -194,9 +194,13 @@ systematizing the running of an OS project. That's a big if, though!
 
 ** Libraries / Prior Art
 
-- re-frame
-- duct, integrant
-- hoplon
+These libraries are used by or helped inspire Sweet Tooth:
+
+- [[https://github.com/day8/re-frame][re-frame]]
+- [[https://github.com/weavejester/integrant][Integrant]]
+- [[https://github.com/duct-framework/duct][Duct]]
+- [[https://github.com/hoplon/hoplon][hoplon]]
+- [[https://github.com/metosin/reitit][reitit]]
   
 ** People
 
