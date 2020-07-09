@@ -93,10 +93,9 @@ to the routing protocol.
 At the same time, some core responsibilities cannot be made modular. Sweet Tooth
 is built on top of Integrant, which is used to define, configure, and manage the
 lifecycle of the system's architecture; you can't use the mount or component
-libraries instead, in the same way that you must use either systemd or upstart
-on servers. On the frontend, ST is built on top of re-frame, which act as a kind
-of filesystem and messaging system. Using Sweet Tooth means using re-frame and
-Integrant.
+libraries instead On the frontend, ST is built on top of re-frame, which act as
+a kind of filesystem and messaging system. Using Sweet Tooth means using
+re-frame and Integrant.
 
 /Exntensibility/ means that devs should be able to easily introduce custom
 implementations of core framework offerings. (OMG I need to find a better way to
