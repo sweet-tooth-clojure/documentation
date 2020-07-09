@@ -92,6 +92,14 @@ responsibility for another. For example, Sweet Tooth uses reitit for routing,
 but it's possible for you to use a different library as long as you can adapt it
 to the routing protocol.
 
+At the same time, some core responsibilities cannot be made modular. Sweet Tooth
+is built on top of Integrant, which is used to define, configure, and manage the
+lifecycle of the system's architecture; you can't use the mount or component
+libraries instead, in the same way that you must use either systemd or upstart
+on servers. On the frontend, ST is built on top of re-frame, which act as a kind
+of filesystem and messaging system. Using Sweet Tooth means using re-frame and
+Integrant.
+
 _Exntensibility_ means that devs should be able to easily introduce custom
 implementations of core framework offerings. (OMG I need to find a better way to
 phrase this!) In practice this mostly means identifying where it's possible and
