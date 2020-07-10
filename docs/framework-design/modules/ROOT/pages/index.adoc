@@ -530,6 +530,7 @@ subject is definitely an ongoing process, but here's what I have so far: A
 well-designed framework is _modular_, _extensible_, and _composable_.
 
 
+=== Modular ===
 _Modular_ means that the framework's responsibilities should be well-defined,
 and it should be possible for you to swap out one implementation of a
 responsibility for another. For example, Sweet Tooth uses reitit for routing,
@@ -543,6 +544,8 @@ libraries instead On the frontend, ST is built on top of re-frame, which act as
 a kind of filesystem and messaging system. Using Sweet Tooth means using
 re-frame and Integrant.
 
+
+=== Extensible ===
 _Extensibile_ means that devs should be able to easily introduce custom
 implementations of core framework offerings. (OMG I need to find a better way to
 phrase this!) In practice this mostly means identifying where it's possible and
@@ -553,6 +556,8 @@ trivial to extend the system for new components, for example by introducing a
 markdown editor component. The to-do example walkthrough will show you how this
 works.
 
+
+=== Composable ===
 _Composable_ means two things: first, that the framework should be written from
 a UNIX-y "do one thing well" standpoint. Back to form components: the form
 component system is layered, with re-frame subscriptions and handlers as the
