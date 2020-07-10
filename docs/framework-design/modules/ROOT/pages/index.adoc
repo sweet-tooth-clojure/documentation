@@ -166,10 +166,13 @@ At the entity level, resource management involves task like:
 * create / wait for / respond to XHR request
 
 Stepping back, we might say that resource management is about changing state and
-responding to state changes. "State" is one of those very overloaded programming
-terms, so like, don't kill me if I use it differently than you. But when talking
-about state, I think it's important to differentiate between _operational state_
-and _content_.
+responding to state changes. (You can even think of components themselves as
+entities of the larger system; is starting and stopping a database fundamentally
+different from managing background jobs?)
+
+"State" is one of those very overloaded programming terms, so like, don't kill
+me if I use it differently than you. But when talking about state, I think it's
+important to differentiate between _operational state_ and _content_.
 
 Content examples include:
 
