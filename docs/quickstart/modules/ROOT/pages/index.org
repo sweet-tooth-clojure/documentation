@@ -10,9 +10,6 @@ This Quickstart will show you how to:
 - fetch endpoint data
 - submit a form
 
-NOTE: There are ansible scripts for easily deploying Sweet Tooth apps. This
-Quickstart will eventually include instructions for deploying.
-
 * Create a new Sweet Tooth app
 
 You can create a new app with the `sweet-tooth-app` leiningen template. Let's

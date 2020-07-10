@@ -99,7 +99,7 @@ libraries instead On the frontend, ST is built on top of re-frame, which act as
 a kind of filesystem and messaging system. Using Sweet Tooth means using
 re-frame and Integrant.
 
-_Exntensibility_ means that devs should be able to easily introduce custom
+_Extensibility_ means that devs should be able to easily introduce custom
 implementations of core framework offerings. (OMG I need to find a better way to
 phrase this!) In practice this mostly means identifying where it's possible and
 appropriate to use a multimethod, and doing so. One example is Sweet Tooth's
