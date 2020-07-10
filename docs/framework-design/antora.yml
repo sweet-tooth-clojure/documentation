@@ -1,0 +1,5 @@
+name: framework-design
+title: Framework Design
+version: dev
+nav:
+  - modules/ROOT/nav.adoc
